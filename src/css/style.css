@@ -54,6 +54,7 @@ nav {
 /* allow scrolling to the bottom */
 main {
     margin-bottom: 5vh;
+    margin-top: 1vh;
 }
 footer {
     position: fixed;

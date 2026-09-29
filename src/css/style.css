@@ -10,7 +10,7 @@
     --color-main-text: rgb(255,255,255);
     --color-text-a: rgb(37, 96, 225);
     --color-text-a-clicked: rgb(133, 62, 255);
-    --color-text-a-active: rgb(232, 40, 40);
+    --color-text-a-active: rgb(184, 0, 0);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,7 +43,7 @@ a:active {
 /* TEXT SIZING & coloring */
 
 p, li, h1, h2, h3 {
-    color: var(--color-text)
+    color: var(--color-text);
 }
 
 p, li {
@@ -74,6 +74,10 @@ nav *, footer * {
     padding: 10px;
     color: var(--color-main-text);
     margin: 0;
+}
+
+nav p {
+    font-size: 2rem;
 }
 
 nav div {

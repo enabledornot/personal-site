@@ -26,7 +26,7 @@ title: Resume
             <resume-list>
                 <resume-list-item>Overall GPA: 3.93/4.00</resume-list-item>
                 <resume-list-item>Computer Science GPA: 4.00/4.00</resume-list-item>
-                <resume-list-item>Recipeint of Excellence in Computer Science Award</resume-list-item>
+                <resume-list-item>Recipient of Excellence in Computer Science Award</resume-list-item>
                 <resume-list-item>Member of UPE (International Honors Society for Computing Sciences)</resume-list-item>
                 <resume-list-item>Member of Pi Mu Epsilon (Mathematics Honors Society)</resume-list-item>
                 <resume-list-item>MAGIS University of Scranton Honors Program in STEM</resume-list-item>
@@ -106,7 +106,7 @@ title: Resume
         >
             <resume-list>
                 <resume-list-item>Created a system for automatically merging and updating ride and park metadata from various sources including an existing ride database, Wikipedia and YouTube (for on ride videos) in Python</resume-list-item>
-                <resume-list-item>Developed an NextJS (React) application to display ride videos from a mongodb database</resume-list-item>
+                <resume-list-item>Developed a NextJS (React) application to display ride videos from a mongodb database</resume-list-item>
             </resume-list>
         </resume-project>
 
@@ -184,7 +184,7 @@ title: Resume
             @group="Boy Scouts of America | Eagle Scout + 5 additional palms"
             @location="Summer 2021"
         >
-            <resume-line text="Senior Patrol Leader (highest ranking scout position)" date="2 6 month terms"></resume-line>
+            <resume-line text="Senior Patrol Leader (highest ranking scout position)" date="Two 6 month terms"></resume-line>
         </resume-extracurricular>
     </resume-section>
 </resume>

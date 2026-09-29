@@ -4,6 +4,7 @@ title: Resume
 ---
 <h1>My Resume</h1>
 <p>Below is a digital version of my resume. Some sections are extended from the PDF version and no contact information is included</p>
+<hr>
 <resume>
     <resume-section @title="Education">
         <resume-education 

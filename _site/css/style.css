@@ -1,9 +1,12 @@
+/* TEXT SIZING */
+
+
+
 /* HEADING & FOOTER CSS */
 body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 p, h1 {
@@ -40,13 +43,16 @@ nav {
 }
 
 main {
-    flex: 1;
+    margin-bottom: 5vh;
 }
-
+footer {
+    position: fixed;
+    bottom: 0;
+}
 
 /* RESUME RELATED CSS */
 
-.resume {
+main {
     width: 80%;
     border: solid 1px black;
     margin-left: auto;

@@ -1,3 +1,51 @@
+/* HEADING & FOOTER CSS */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p, h1 {
+    padding: 10px;
+    margin: 0;
+}
+
+nav *, footer * {
+    padding: 10px;
+    color:white;
+}
+
+nav div {
+    display: flex;
+}
+
+nav a {
+    margin: 0;
+    background-color: black;
+}
+
+nav a:hover {
+    background-color:grey;
+}
+
+nav, footer {
+    background-color: darkblue;
+    width: 100%;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+main {
+    flex: 1;
+}
+
+
+/* RESUME RELATED CSS */
+
 .resume {
     width: 80%;
     border: solid 1px black;

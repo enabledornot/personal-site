@@ -1,8 +1,9 @@
 ---
 layout: base.njk
-title: James Fox Resume
+title: Resume
 ---
-
+<h1>My Resume</h1>
+<p>Below is a digital version of my resume. Some sections are extended from the PDF version and no contact information is included</p>
 <resume>
     <resume-section @title="Education">
         <resume-education 

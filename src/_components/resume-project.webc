@@ -1,6 +1,9 @@
 <section class="subgroup">
     <div class="row">
-        <span class="left"><a :href="url" target="_blank"><b @text="title"></b></a></span>
+        <span class="left">
+            <a webc:if="typeof url === 'string'" :href="url" target="_blank"><b @text="title"></b></a>
+            <b webc:else @text="title"></b>
+        </span>
         <span class="right" @text="date"></span>
     </div>
     <div class="row">

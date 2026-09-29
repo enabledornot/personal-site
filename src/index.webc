@@ -12,6 +12,8 @@ title: About
 
 <p>James graduated from Scranton in 2025 with a computer science and Mathematical Sciences major. He was a member of the MAGIS honors program in STEM and worked with Dr. Frissell on MSTID research. Under this project he attended multiple conferences and defended an undergraduate thesis. He also worked as a techcon in OSSS providing technical support for faculty and students with LMS software. He was treasurer for Scranton’s Gaming club and was instrumental, in rejuvenating the ACM student chapter and organized many student focused events and meetings.</p>
 
+<img :src="url('/images/scranton.jpg')" class="main" alt="Photo of Campus at the University of Scranton">
+
 <hr>
 
 <h2>Interests</h2>

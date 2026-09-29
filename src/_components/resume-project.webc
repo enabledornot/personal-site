@@ -1,19 +1,15 @@
-<section class="subgroup">
+<div class="subgroup">
     <div class="row">
         <span class="left">
-            <p>
-                <a webc:if="typeof url === 'string'" :href="url" target="_blank"><b @text="title"></b></a>
-                <b webc:else @text="title"></b>
-            </p>
+            <a webc:if="typeof url === 'string'" :href="url" target="_blank"><b @text="title"></b></a>
+            <b webc:else @text="title"></b>
         </span>
-        <span class="right"><p @text="date"></p></span>
+        <span class="right" @text="date"></span>
     </div>
     <div class="row">
-        <span class="left"><p><i @text="description"></i></p></span>
+        <span class="left"><i @text="description"></i></span>
     </div>
     <div class="row">
-        <span class="left">
-            <slot></slot>
-        </span>
+        <slot></slot>
     </div>
-</section>
+</div>

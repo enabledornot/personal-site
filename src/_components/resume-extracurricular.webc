@@ -1,7 +1,7 @@
-<section class="subgroup">
+<div class="subgroup">
     <div class="row">
-        <span class="left"><p><b @text="group"></b></p></span>
-        <span class="right"><p @text="location"></p></span>
+        <span class="left"><b @text="group"></b></span>
+        <span class="right" @text="location"></span>
     </div>
     <slot></slot>
-</section>
+</div>

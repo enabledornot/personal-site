@@ -1,15 +1,13 @@
-<section class="subgroup">
+<div class="subgroup">
     <div class="row">
-        <span class="left"><p><b @text="school"></b></p></span>
-        <span class="right"><p @text="date"></p></span>
+        <span class="left"><b @text="school"></b></span>
+        <span class="right" @text="date"></span>
     </div>
     <div class="row">
-        <span class="left"><p><i @text="degree"></i></p></span>
-        <span class="right"><p @text="location"></p></span>
+        <span class="left"><i @text="degree"></i></span>
+        <span class="right" @text="location"></span>
     </div>
     <div class="row">
-        <span class="left">
-            <slot></slot>
-        </span>
+        <slot></slot>
     </div>
-</section>
+</div>

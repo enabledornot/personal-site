@@ -1,4 +1,50 @@
-/* TEXT SIZING */
+/* font colors */
+
+:root {
+    --color-main: rgb(0,0,140);
+    --color-back: rgb(255,255,255);
+    --color-alt: rgb(0, 0, 0);
+    --color-alt-hov: rgb(40, 40, 40);
+
+    --color-text: rgb(0,0,0);
+    --color-main-text: rgb(255,255,255);
+    --color-text-a: rgb(37, 96, 225);
+    --color-text-a-clicked: rgb(133, 62, 255);
+    --color-text-a-active: rgb(232, 40, 40);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-main: rgb(0, 182, 206);
+        --color-back: rgb(0, 0, 0);
+        --color-alt: rgb(255, 255, 255);
+        --color-alt-hov: rgb(169, 169, 169);
+
+        --color-text: rgb(255, 255, 255);
+        --color-main-text: rgb(0, 0, 0);
+        --color-text-a: rgb(127, 155, 246);
+        --color-text-a-clicked: rgb(140, 75, 253);
+        --color-text-a-active: rgb(242, 94, 94);
+    }
+}
+
+a {
+    color: var(--color-text-a);
+}
+
+a:visited {
+    color: var(--color-text-a-clicked);
+}
+
+a:active {
+    color: var(--color-text-a-active);
+}
+
+/* TEXT SIZING & coloring */
+
+p, li, h1, h2, h3 {
+    color: var(--color-text)
+}
 
 p, li {
     font-size:1rem;
@@ -21,11 +67,12 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-color: var(--color-back);
 }
 
 nav *, footer * {
     padding: 10px;
-    color:white;
+    color: var(--color-main-text);
     margin: 0;
 }
 
@@ -33,17 +80,19 @@ nav div {
     display: flex;
 }
 
-nav a {
+a.nav {
     margin: 0;
-    background-color: black;
+    background-color: var(--color-alt);
+    color: var(--color-main-text);
+    text-decoration: none;
 }
 
-nav a:hover {
-    background-color:grey;
+a:hover.nav {
+    background-color:var(--color-alt-hov);
 }
 
 nav, footer {
-    background-color: darkblue;
+    background-color: var(--color-main);
     width: 100%;
 }
 
@@ -78,7 +127,7 @@ html {
 @media (min-width: 768px) {
     main {
         width: 90%;
-        border: solid 1px black;
+        border: solid 1px var(--color-text);
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
@@ -92,7 +141,7 @@ html {
 @media (min-width: 1024px) {
     main {
         width: 80%;
-        border: solid 1px black;
+        border: solid 1px var(--color-text);
         margin-left: auto;
         margin-right: auto;
         padding: 10px;

@@ -1,11 +1,11 @@
 <section class="subgroup">
     <div class="row">
-        <span class="left"><b @text="school"></b></span>
-        <span class="right" @text="date"></span>
+        <span class="left"><p><b @text="school"></b></p></span>
+        <span class="right"><p @text="date"></p></span>
     </div>
     <div class="row">
-        <span class="left"><i @text="degree"></i></span>
-        <span class="right" @text="location"></span>
+        <span class="left"><p><i @text="degree"></i></p></span>
+        <span class="right"><p @text="location"></p></span>
     </div>
     <div class="row">
         <span class="left">

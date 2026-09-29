@@ -1,13 +1,15 @@
 <section class="subgroup">
     <div class="row">
         <span class="left">
-            <a webc:if="typeof url === 'string'" :href="url" target="_blank"><b @text="title"></b></a>
-            <b webc:else @text="title"></b>
+            <p>
+                <a webc:if="typeof url === 'string'" :href="url" target="_blank"><b @text="title"></b></a>
+                <b webc:else @text="title"></b>
+            </p>
         </span>
-        <span class="right" @text="date"></span>
+        <span class="right"><p @text="date"></p></span>
     </div>
     <div class="row">
-        <span class="left"><i @text="description"></i></span>
+        <span class="left"><p><i @text="description"></i></p></span>
     </div>
     <div class="row">
         <span class="left">

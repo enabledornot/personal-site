@@ -41,7 +41,7 @@ nav {
     position: sticky;
     top: 0;
 }
-
+/* allow scrolling to the bottom */
 main {
     margin-bottom: 5vh;
 }
@@ -69,6 +69,10 @@ main {
 .row {
     display: flex;
     justify-content: space-between;
+}
+.row p {
+    margin: 0;
+    padding: 0;
 }
 ul, li {
     margin: 0;

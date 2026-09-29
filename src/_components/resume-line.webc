@@ -1,4 +1,4 @@
 <div class="row">
-        <span class="left"><i @text="text"></i></span>
-        <span class="right" @text="date"></span>
+        <span class="left"><p><i @text="text"></i></p></span>
+        <span class="right"><p @text="date"></p></span>
 </div>

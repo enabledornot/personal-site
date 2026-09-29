@@ -74,6 +74,10 @@ main {
     padding: 10px;
 }
 
+html {
+    font-size: 36px;
+}
+
 @media (min-width: 768px) {
     main {
         width: 90%;
@@ -81,6 +85,10 @@ main {
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
+    }
+
+    html {
+        font-size: 24px;
     }
 }
 
@@ -92,16 +100,23 @@ main {
         margin-right: auto;
         padding: 10px;
     }
+
+    html {
+        font-size: 18px;
+    }
 }
 
 .right {
-    text-align:right;
+    text-align:initial;
+    display: block;
 }
+
 .left {
-    text-align:left;
+    text-align: initial;
+    display: block;
 }
 .row {
-    display: flex;
+    display: block;
     justify-content: space-between;
 }
 .row p {
@@ -115,4 +130,16 @@ ul, li {
 .subgroup {
     margin-top: 15px;
     margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+    .right {
+        text-align:right;
+    }
+    .left {
+        text-align:left;
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
 }

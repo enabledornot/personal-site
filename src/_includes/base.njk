@@ -4,15 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>James Fox - {{ title }}</title>
-        <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+        <link rel="stylesheet" href="{{ '/css/style.css' | relative }}">
     </head>
     <body>
         <nav>
             <p>James Fox</p>
             <div>
-                <a class="nav" href="{{ '/' | url }}">About</a>
-                <a class="nav" href="{{ '/resume' | url }}">Resume</a>
-                <a class="nav" href="{{ '/contact' | url }}">Contact</a>
+                <a class="nav" href="{{ '/index.html' | relative }}">About</a>
+                <a class="nav" href="{{ '/resume/index.html' | relative }}">Resume</a>
+                <a class="nav" href="{{ '/contact/index.html' | relative }}">Contact</a>
             </div>
         </nav>
         <main>

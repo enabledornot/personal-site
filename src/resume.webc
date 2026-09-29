@@ -1,0 +1,188 @@
+---
+layout: base.njk
+title: James Fox Resume
+---
+
+<resume>
+    <resume-section @title="Education">
+        <resume-education 
+            @school="Villanova University"
+            @date="May 2027"
+            @degree="Masters in Computer Science"
+            @location="Villanova, PA"
+        >
+            <resume-list>
+                <resume-list-item>Overall GPA: 4.00/4.00</resume-list-item>
+            </resume-list>
+        </resume-education>
+        <resume-education
+            @school="The University of Scranton"
+            @date="May 2025"
+            @degree="Bachelor of Science, Double Major in Computer Science and Mathematical Sciences"
+            @location="Scranton, PA"
+        >
+            <resume-list>
+                <resume-list-item>Overall GPA: 3.93/4.00</resume-list-item>
+                <resume-list-item>Computer Science GPA: 4.00/4.00</resume-list-item>
+                <resume-list-item>Recipeint of Excellence in Computer Science Award</resume-list-item>
+                <resume-list-item>Member of UPE (International Honors Society for Computing Sciences)</resume-list-item>
+                <resume-list-item>Member of Pi Mu Epsilon (Mathematics Honors Society)</resume-list-item>
+                <resume-list-item>MAGIS University of Scranton Honors Program in STEM</resume-list-item>
+            </resume-list>
+        </resume-education>
+    </resume-section>
+    <resume-section @title="Employment">
+        <resume-job
+            @position="Backend Developer Internship"
+            @date="May 2026 - August 2026"
+            @company="IBM"
+            @location="Poughkeepsie, NY"
+        >
+            <resume-list>
+                <resume-list-item>Created an AI workflow for maintaining and adding healthchecks to existing zOS components using skills, modes and templates</resume-list-item>
+                <resume-list-item>Developed a Python based code verifier MCP tool to identify common errors with AI generated PLX code</resume-list-item>
+                <resume-list-item>Contributed multiple changes to zOS Supervisor component and actively participated in code reviews both as an author and reviewer</resume-list-item>
+            </resume-list>
+        </resume-job>
+        <resume-job
+            @position="Graduate Teaching Assistant"
+            @date="August 2025 - current"
+            @company="Villanova University"
+            @location="Villanova, PA"
+        >
+            <resume-list>
+                <resume-list-item>Developed a program for the automatic running and evaluating student program submissions using Docker and Python</resume-list-item>
+                <resume-list-item>Provided assistance to students with class material and homework assignments</resume-list-item>
+            </resume-list>
+        </resume-job>
+
+        <resume-job
+            @position="Undergraduate Research Assistant"
+            @date="May 2024 - August 2024"
+            @company="The University of Scranton"
+            @location="Scranton, PA"
+        >
+            <resume-list>
+                <resume-list-item>Collaborated on NASA funded research grant alongside researchers around the country</resume-list-item>
+                <resume-list-item>Processed 12 years of Northern and Southern Hemisphere SuperDARN data to produce an approximation of MSTID activity using Python, Numpy, Pandas and Mongodb</resume-list-item>
+                <resume-list-item>Used Flask and psycopg2 (PostgreSQL) to develop a website to aid in the manual classification of MSTID events</resume-list-item>
+            </resume-list>
+        </resume-job>
+        <resume-job
+            @position="Automation Systems Runtime Research Internship"
+            @date="May 2023 - August 2023"
+            @company="Siemens: Future Of Automation"
+            @location="Princeton, NJ"
+        >
+            <resume-list>
+                <resume-list-item>Cross compiled Android dependencies for industrial panel application using Conan and CMake</resume-list-item>
+                <resume-list-item>Configured networks between VMware, VirtualBox, Physical network interfaces and the outside network using Bridged, Shared and NAT network interfaces</resume-list-item>
+                <resume-list-item>Installed and configured docker containers to run on industrial panel hardware</resume-list-item>
+                <resume-list-item>Participated in Biweekly Sprints to share progress with the team and encourage collaboration</resume-list-item>
+            </resume-list>
+        </resume-job>
+
+        <resume-job
+            @position="Technology Consultant"
+            @date="March 2022 - May 2025"
+            @company="The University of Scranton: Office of Student Support and Success"
+            @location="Scranton, PA"
+        >
+            <resume-list>
+                <resume-list-item>Provide technical support on Brightspace learning management software to faculty and students</resume-list-item>
+                <resume-list-item>Fixed 5-year-old bug in project tracking software written in python 2 and DjangoDB</resume-list-item>
+                <resume-list-item>Managed Cron driven backup procedure for project tracking software on Red-Hat Linux server</resume-list-item>
+                <resume-list-item>Create and Edit documentation web-pages on the Scranton website using WebCMS</resume-list-item>
+            </resume-list>
+        </resume-job>
+    </resume-section>
+    <resume-section @title="Projects">
+        <resume-project
+            @title="Ride Videos Website & Database"
+            @date="January 2025 - May 2025"
+            @description="An online database of amusement park on ride videos"
+        >
+            <resume-list>
+                <resume-list-item>Created a system for automatically merging and updating ride and park metadata from various sources including an existing ride database, Wikipedia and YouTube (for on ride videos) in Python</resume-list-item>
+                <resume-list-item>Developed an NextJS (React) application to display ride videos from a mongodb database</resume-list-item>
+            </resume-list>
+        </resume-project>
+
+        <resume-project
+            @title="Space physics Research Project and Undergraduate Thesis"
+            @url="https://digitalservices.scranton.edu/digital/collection/p15111coll1/id/1515/"
+            @date="February 2023 - May 2025"
+            @description="NASA Funded Research Grant to study MSTIDs in the Southern Hemisphere"
+        >
+            <resume-list>
+                <resume-list-item>Used a frequency analysis technique to detect periods of high and low MSTID activity using SuperDARN data and showed how MSTIDs correlate to SSWs</resume-list-item>
+                <resume-list-item>Developed and defended a written thesis (in LaTeX) covering my research and findings over the previous 2.5 years</resume-list-item>
+                <resume-list-item>Presented at notable conferences within the field of ionospheric physics including CEDAR, HamSCI, Hamvention and AGU</resume-list-item>
+                <resume-list-item>Configured remote Ubuntu based development machine for easier access and processing of 10tb SuperDARN data set</resume-list-item>
+            </resume-list>
+        </resume-project>
+
+        <resume-project
+            @title="Algorithmics"
+            @url="https://github.com/enabledornot/algorithmics"
+            @date="Spring 2024"
+            @description="An independent study focused on implementing and optimizing various algorithms"
+        >
+            <resume-list>
+                <resume-list-item>Developed a prime sieve in C using bitmasks and tried various optimizations to improve efficiency</resume-list-item>
+                <resume-list-item>Implemented Huffman compression algorithm using files and piping</resume-list-item>
+            </resume-list>
+        </resume-project>
+
+        <resume-project
+            @title="Macro-preprocessor project"
+            @url="https://github.com/enabledornot/pepp9i"
+            @date="Summer 2022"
+            @description="Implemented a macro-preprocessor for the PEP9 assembly language in Python"
+        >
+
+        </resume-project>
+
+        <resume-project
+            @title="Advent of Code 203 Total Stars"
+            @url="https://github.com/enabledornot/adventofcode"
+            @date="2021 - 2025"
+            @description="Participated in daily programming challenges from December 1st to 25th using various languages including Python, C++ and Rust"
+        >
+
+        </resume-project>
+
+        <resume-project
+            @title="Crypto Web"
+            @url="https://github.com/enabledornot/crypto_web"
+            @date="November 2024 - December 2024"
+            @description="A statically deployed website for illustrating various primality tests using WASM, Frozen-Flask, and JS"
+        >
+        </resume-project>
+
+        <resume-project
+            @title="Thinkbox: Say what is on your mind"
+            @url="https://github.com/enabledornot/thinkbox"
+            @date="April 2024 - May 2024"
+            @description="A Flask & PostgreSQL application deployed with Docker-Compose that allows users to post to global feed"
+        >
+
+        </resume-project>
+    </resume-section>
+    <resume-section @title="Extracurricular">
+        <resume-extracurricular
+            @group="The University of Scranton"
+            @location="Scranton, PA"
+        >
+            <resume-line text="Association for Computing Machinery (ACM) Student Chapter | Co-founder - Chair - Vice Chair" date="Fall 2022 - Spring 2025"></resume-line>
+            <resume-line text="Gaming club | Treasurer" date="Fall 2022 - Spring 2025"></resume-line>
+        </resume-extracurricular>
+
+        <resume-extracurricular
+            @group="Boy Scouts of America | Eagle Scout + 5 additional palms"
+            @location="Summer 2021"
+        >
+            <resume-line text="Senior Patrol Leader (highest ranking scout position)" date="2 6 month terms"></resume-line>
+        </resume-extracurricular>
+    </resume-section>
+</resume>

@@ -1,0 +1,14 @@
+<section class="subgroup">
+    <div class="row">
+        <span class="left"><a :href="url" target="_blank"><b @text="title"></b></a></span>
+        <span class="right" @text="date"></span>
+    </div>
+    <div class="row">
+        <span class="left"><i @text="description"></i></span>
+    </div>
+    <div class="row">
+        <span class="left">
+            <slot></slot>
+        </span>
+    </div>
+</section>

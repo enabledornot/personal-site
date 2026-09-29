@@ -1,0 +1,4 @@
+<section>
+    <h2 @text="title"></h2>
+    <slot></slot>
+</section>

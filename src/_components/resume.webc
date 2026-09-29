@@ -1,0 +1,3 @@
+<section class="resume">
+    <slot></slot>
+</section>

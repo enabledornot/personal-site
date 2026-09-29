@@ -1,6 +1,20 @@
 /* TEXT SIZING */
 
+p {
+    font-size:1rem;
+}
 
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
 
 /* HEADING & FOOTER CSS */
 body {
@@ -53,11 +67,31 @@ footer {
 /* RESUME RELATED CSS */
 
 main {
-    width: 80%;
-    border: solid 1px black;
+    width: 100%;
+    border: none;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     padding: 10px;
+}
+
+@media (min-width: 768px) {
+    main {
+        width: 90%;
+        border: solid 1px black;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        width: 80%;
+        border: solid 1px black;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
 }
 
 .right {

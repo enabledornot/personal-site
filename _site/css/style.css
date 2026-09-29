@@ -1,6 +1,6 @@
 /* TEXT SIZING */
 
-p {
+p, li {
     font-size:1rem;
 }
 
@@ -23,14 +23,10 @@ body {
     flex-direction: column;
 }
 
-p, h1 {
-    padding: 10px;
-    margin: 0;
-}
-
 nav *, footer * {
     padding: 10px;
     color:white;
+    margin: 0;
 }
 
 nav div {

@@ -1,0 +1,10 @@
+---
+layout: base.njk
+title: Resume
+---
+
+<h1>Contact</h1>
+
+<p>The best way to get in touch with me is LinkedIn since I do not share my email publicly to avoid spam</p>
+
+<a href="https://www.linkedin.com/in/james-fox-a29348259/" target="_blank">LinkedIn</a>
